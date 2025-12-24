@@ -79,7 +79,7 @@ const travelTimes = [
 const nearbyAttractions = [
   {
     title: "Ampera Bridge",
-    img: "/images/gallery/bg_ampera.jpg",
+    img: "/visit-palembang/images/gallery/bg_ampera.jpg",
     description:
       "Palembang’s iconic bridge and symbol of unity across the Musi River.",
     details:
@@ -87,21 +87,21 @@ const nearbyAttractions = [
   },
   {
     title: "Kemaro Island",
-    img: "/images/gallery/Pagoda.jpg",
+    img: "/visit-palembang/images/gallery/Pagoda.jpg",
     description: "A tranquil island with a Chinese pagoda and legends of love.",
     details:
       "Located in the middle of the Musi River, Kemaro Island features a Buddhist temple, a pagoda, and annual Cap Go Meh festivities.",
   },
   {
     title: "Great Mosque",
-    img: "/images/gallery/masjidAgung.jpeg",
+    img: "/visit-palembang/images/gallery/masjidAgung.jpeg",
     description: "A blend of Palembang, Chinese, and European architecture.",
     details:
       "Masjid Agung Palembang is one of the largest mosques in Indonesia, located near the Ampera Bridge. A spiritual and historical centerpiece.",
   },
   {
     title: "Monpera Monument",
-    img: "/images/gallery/monperanight.jpeg",
+    img: "/visit-palembang/images/gallery/monperanight.jpeg",
     description:
       "Monumen Perjuangan Rakyat: dedicated to the independence fighters.",
     details:

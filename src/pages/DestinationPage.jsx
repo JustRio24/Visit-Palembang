@@ -7,7 +7,7 @@ import BackToTop from "../components/BackToTop";
 const destinations = [
   {
     title: "Ampera Bridge",
-    image: "/images/gallery/bg_ampera.jpg",
+    image: "/visit-palembang/images/gallery/bg_ampera.jpg",
     category: "Landmark",
     short:
       "Iconic bridge connecting Seberang Ulu and Seberang Ilir, symbol of Palembang.",
@@ -20,7 +20,7 @@ const destinations = [
   },
   {
     title: "Kemaro Island",
-    image: "/images/gallery/Pagoda.jpg",
+    image: "/visit-palembang/images/gallery/Pagoda.jpg",
     category: "Landmark",
     short:
       "A small delta island in the Musi River, famous for its temple and legends.",
@@ -33,7 +33,7 @@ const destinations = [
   },
   {
     title: "Monpera",
-    image: "/images/gallery/monperanight.jpeg",
+    image: "/visit-palembang/images/gallery/monperanight.jpeg",
     category: "Monument",
     short:
       "A historical monument commemorating Palembang’s struggle for independence.",
@@ -46,7 +46,7 @@ const destinations = [
   },
   {
     title: "Great Mosque",
-    image: "/images/gallery/masjidAgung.jpeg",
+    image: "/visit-palembang/images/gallery/masjidAgung.jpeg",
     category: "Religious",
     short:
       "The largest and oldest mosque in Palembang, showcasing local and Islamic architecture.",
@@ -59,7 +59,7 @@ const destinations = [
   },
   {
     title: "Museum Sultan Mahmud Badaruddin II",
-    image: "/images/gallery/museumSultan.jpeg",
+    image: "/visit-palembang/images/gallery/museumSultan.jpeg",
     category: "Museum",
     short:
       "A riverside museum showcasing Palembang's rich history and cultural artifacts.",
@@ -72,7 +72,7 @@ const destinations = [
   },
   {
     title: "Tugu Ikan Belido",
-    image: "/images/gallery/Tugu iwak belido.jpeg",
+    image: "/visit-palembang/images/gallery/Tugu iwak belido.jpeg",
     category: "Landmark",
     short:
       "A modern landmark symbolizing the Belido fish, iconic to Palembang's identity.",

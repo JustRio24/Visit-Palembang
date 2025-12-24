@@ -7,29 +7,65 @@ import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
 
 const allImages = [
-  { src: "/images/gallery/bg_ampera.jpg", category: "Landmark" },
-  { src: "/images/gallery/musiriver.jpeg", category: "Nature" },
-  { src: "/images/culinary.jpg", category: "Culinary" },
-  { src: "/images/heritage.jpg", category: "Culture" },
-  { src: "/images/gallery/Pindang Patin.jpg", category: "Culinary" },
-  { src: "/images/gallery/kemaroisland.jpg", category: "Landmark" },
-  { src: "/images/gallery/bukitsiguntang.jpg", category: "Nature" },
-  { src: "/images/gallery/rumahadat.jpeg", category: "Culture" },
-  { src: "/images/gallery/bajuadat.jpeg", category: "Culture" },
-  { src: "/images/culture.jpg", category: "Culture" },
-  { src: "/images/gallery/burgo.jpeg", category: "Culinary" },
-  { src: "/images/gallery/masjidAgung.jpeg", category: "Religious" },
-  { src: "/images/gallery/museumSultan.jpeg", category: "Museum" },
-  { src: "/images/gallery/Tugu iwak belido.jpeg", category: "Monument" },
-  { src: "/images/gallery/Monpera.jpeg", category: "Monument" },
-  { src: "/images/gallery/ysc.jpg", category: "Nature" },
-  { src: "/images/gallery/bkb.jpeg", category: "Landmark" },
-  { src: "/images/gallery/Balaputra.jpeg", category: "Museum" },
-  { src: "/images/gallery/ampera2.jpeg", category: "Landmark" },
-  { src: "/images/gallery/SekanakRiver.jpg", category: "Nature" },
-  { src: "/images/gallery/KapalSelam.jpeg", category: "Culinary" },
-  { src: "/images/gallery/GendingSriwijaya.jpeg", category: "Culture" },
-  { src: "/images/gallery/Al-QuranAkbar.jpg", category: "Religious" },
+  {
+    src: "/visit-palembang/images/gallery/bg_ampera.jpg",
+    category: "Landmark",
+  },
+  { src: "/visit-palembang/images/gallery/musiriver.jpeg", category: "Nature" },
+  { src: "/visit-palembang/images/culinary.jpg", category: "Culinary" },
+  { src: "/visit-palembang/images/heritage.jpg", category: "Culture" },
+  {
+    src: "/visit-palembang/images/gallery/Pindang Patin.jpg",
+    category: "Culinary",
+  },
+  {
+    src: "/visit-palembang/images/gallery/kemaroisland.jpg",
+    category: "Landmark",
+  },
+  {
+    src: "/visit-palembang/images/gallery/bukitsiguntang.jpg",
+    category: "Nature",
+  },
+  {
+    src: "/visit-palembang/images/gallery/rumahadat.jpeg",
+    category: "Culture",
+  },
+  { src: "/visit-palembang/images/gallery/bajuadat.jpeg", category: "Culture" },
+  { src: "/visit-palembang/images/culture.jpg", category: "Culture" },
+  { src: "/visit-palembang/images/gallery/burgo.jpeg", category: "Culinary" },
+  {
+    src: "/visit-palembang/images/gallery/masjidAgung.jpeg",
+    category: "Religious",
+  },
+  {
+    src: "/visit-palembang/images/gallery/museumSultan.jpeg",
+    category: "Museum",
+  },
+  {
+    src: "/visit-palembang/images/gallery/Tugu iwak belido.jpeg",
+    category: "Monument",
+  },
+  { src: "/visit-palembang/images/gallery/Monpera.jpeg", category: "Monument" },
+  { src: "/visit-palembang/images/gallery/ysc.jpg", category: "Nature" },
+  { src: "/visit-palembang/images/gallery/bkb.jpeg", category: "Landmark" },
+  { src: "/visit-palembang/images/gallery/Balaputra.jpeg", category: "Museum" },
+  { src: "/visit-palembang/images/gallery/ampera2.jpeg", category: "Landmark" },
+  {
+    src: "/visit-palembang/images/gallery/SekanakRiver.jpg",
+    category: "Nature",
+  },
+  {
+    src: "/visit-palembang/images/gallery/KapalSelam.jpeg",
+    category: "Culinary",
+  },
+  {
+    src: "/visit-palembang/images/gallery/GendingSriwijaya.jpeg",
+    category: "Culture",
+  },
+  {
+    src: "/visit-palembang/images/gallery/Al-QuranAkbar.jpg",
+    category: "Religious",
+  },
 ];
 
 const categories = [

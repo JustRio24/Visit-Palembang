@@ -5,6 +5,7 @@ import DestinationCarousel from "../components/DestinationCarousel";
 import ParallaxSection from "../components/ParallaxSection";
 import { GallerySection } from "../components/GalerrySection";
 import BackToTop from "../components/BackToTop";
+import NewsletterFrom from "../components/NewsletterForm";
 import { Link } from "react-router-dom";
 
 function HomePage() {
@@ -13,37 +14,13 @@ function HomePage() {
       <NavBar />
       <HeroSection />
       <DestinationCarousel className="my-24" />
-      <ParallaxSection imageUrl={"/images/gallery/bg_ampera.jpg"}>
+      <ParallaxSection
+        imageUrl={"/visit-palembang/images/gallery/bg_ampera.jpg"}
+      >
         <h1 className="text-4xl font-bold mb-4">
           Haven’t decided yet? Let us inspire you even more.
         </h1>
-        <form
-          className="mt-6"
-          action="https://formspree.io/f/xeogbakl"
-          method="POST"
-        >
-          <div className="flex items-center bg-white rounded-full px-4 py-2 shadow-md">
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter your e-mail to subscribe to our newsletter."
-              className="flex-1 text-gray-700 bg-transparent outline-none px-2 py-2"
-              required
-            />
-            <button
-              type="submit"
-              className="text-gray-600 hover:text-gray-800 transition scale-125 mr-2 hover:cursor-pointer"
-              aria-label="Subscribe"
-            >
-              🖂
-            </button>
-          </div>
-          <input
-            type="hidden"
-            name="_subject"
-            value="New Newsletter Subscription"
-          />
-        </form>
+        <NewsletterFrom />
       </ParallaxSection>
 
       <NextSection />
@@ -60,12 +37,13 @@ function HeroSection() {
     <>
       <div className="hero h-[650px] pt-12 ">
         <video
+          preload="metadata"
           autoPlay
           loop
           muted
           playsInline
           className=" h-[690px] w-full object-cover "
-          src="/video/Wonderful_Palembang.mp4"
+          src="/visit-palembang/video/Wonderful_Palembang.mp4"
         />
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
@@ -78,7 +56,7 @@ function HeroSection() {
               unforgettable flavors, and the warm, welcoming soul of Palembang —
               where every moment becomes a memory.
             </p>
-            <Link to="/destinations" className="btn btn-ghost bg-red-400 ">
+            <Link to="/dest" className="btn btn-ghost bg-red-400 ">
               Start Your Journey ▼
             </Link>
           </div>

@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Dancing";
-  src: url("/src/assets/font/DancingScript-Regular.ttf") format("truetype");
+  src: url("/visit-palembang/assets/DancingScript-Regular.ttf")
+    format("truetype");
 }
 
 @import "tailwindcss";

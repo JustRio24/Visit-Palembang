@@ -5,7 +5,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/bg_ampera.jpg"
+            src="/visit-palembang/images/gallery/bg_ampera.jpg"
             alt="gallery-photo"
             title="Ampera Bridge"
           />
@@ -13,7 +13,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center "
-            src="/images/gallery/kemaroisland.jpg"
+            src="/visit-palembang/images/gallery/kemaroisland.jpg"
             alt="gallery-photo"
             title="Kemaro Island"
           />
@@ -21,7 +21,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/Pempek.jpeg"
+            src="/visit-palembang/images/gallery/Pempek.jpeg"
             alt="gallery-photo"
             title="Pempek"
           />
@@ -31,7 +31,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/Pagoda.jpg"
+            src="/visit-palembang/images/gallery/Pagoda.jpg"
             alt="gallery-photo"
             title="Pagoda"
           />
@@ -39,7 +39,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/Pindang Patin.jpg"
+            src="/visit-palembang/images/gallery/Pindang Patin.jpg"
             alt="gallery-photo"
             title="Pindang Patin"
           />
@@ -47,7 +47,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center "
-            src="/images/gallery/SekanakRiver.jpg"
+            src="/visit-palembang/images/gallery/SekanakRiver.jpg"
             alt="gallery-photo"
             title="Sekanak Riverside"
           />
@@ -57,7 +57,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/TuguBelido.jpg"
+            src="/visit-palembang/images/gallery/TuguBelido.jpg"
             alt="gallery-photo"
             title="Tugu Belido"
           />
@@ -65,7 +65,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center "
-            src="/images/gallery/bukitsiguntang.jpg"
+            src="/visit-palembang/images/gallery/bukitsiguntang.jpg"
             alt="gallery-photo"
             title="Bukit Siguntang"
           />
@@ -73,7 +73,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/Monpera.jpeg"
+            src="/visit-palembang/images/gallery/Monpera.jpeg"
             alt="gallery-photo"
             title="Monpera"
           />
@@ -83,7 +83,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/musiriver.jpeg"
+            src="/visit-palembang/images/gallery/musiriver.jpeg"
             alt="gallery-photo"
             title="Musi River"
           />
@@ -91,7 +91,7 @@ export function GallerySection() {
         <div>
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src="/images/gallery/musibercorak.jpg"
+            src="/visit-palembang/images/gallery/musibercorak.jpg"
             alt="gallery-photo"
             title="Musi bercorak"
           />

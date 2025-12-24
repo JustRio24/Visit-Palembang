@@ -30,7 +30,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/destinations" className="link link-hover">
+                <Link to="/dest" className="link link-hover">
                   Destinations
                 </Link>
               </li>
@@ -50,7 +50,7 @@ function Footer() {
           <div>
             <span className="footer-title">Contact</span>
             <ul className="text-sm mt-2">
-              <li>Email: visitpalembang@email.com</li>
+              <li>Email: officialvisitpalembang@gmail.com</li>
               <li>Phone: +62 812 3456 7890</li>
               <li>Location: Palembang, Indonesia</li>
             </ul>

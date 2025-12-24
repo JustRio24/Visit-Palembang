@@ -7,7 +7,6 @@ function NavBar() {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            {/* Hamburger icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -34,7 +33,7 @@ function NavBar() {
               <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-              <Link to="/destinations">Destinations</Link>
+              <Link to="/dest">Destinations</Link>
             </li>
             <li>
               <Link to="/map">Map & Transportation</Link>
@@ -45,7 +44,6 @@ function NavBar() {
           </ul>
         </div>
 
-        {/* Logo */}
         <Link
           to="/"
           className="flex flex-col items-center text-center ml-4 font-dancing"
@@ -55,7 +53,6 @@ function NavBar() {
         </Link>
       </div>
 
-      {/* Navigation (desktop) */}
       <div className="navbar-center hidden lg:flex font-dancing">
         <ul className="menu menu-horizontal px-1 text-xl">
           <li>
@@ -65,7 +62,7 @@ function NavBar() {
             <Link to="/gallery">Gallery</Link>
           </li>
           <li>
-            <Link to="/destinations">Destinations</Link>
+            <Link to="/dest">Destinations</Link>
           </li>
           <li>
             <Link to="/map">Map & Transportation</Link>
@@ -76,11 +73,10 @@ function NavBar() {
         </ul>
       </div>
 
-      {/* CTA Button */}
       <div className="navbar-end">
         <Link
           to="/plan"
-          className="btn btn-primary border-red-600 bg-red-500 rounded-2xl hover:bg-red-300 mr-4"
+          className="btn btn-primary text-white border-red-600 bg-red-500 rounded-2xl hover:bg-red-300 mr-4"
         >
           Plan Your Visit
         </Link>

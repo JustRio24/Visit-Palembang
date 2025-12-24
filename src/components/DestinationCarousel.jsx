@@ -10,26 +10,26 @@ const destinations = [
   {
     title: "Culinary",
     desc: "Savor authentic local dishes and flavors that make Palembang a true paradise for food lovers.",
-    image: "/images/culinary.jpg",
-    link: "/destinations",
+    image: "/visit-palembang/images/culinary.jpg",
+    link: "#/dest",
   },
   {
     title: "Culture",
     desc: "Experience the vibrant traditions and colorful performances that reflect Palembang’s rich cultural heritage.",
-    image: "/images/culture.jpg",
-    link: "/destinations",
+    image: "/visit-palembang/images/culture.jpg",
+    link: "#/dest",
   },
   {
     title: "Landmark",
     desc: "Explore iconic landmarks that tell the story of Palembang’s historical and architectural legacy.",
-    image: "/images/landmark.jpg",
-    link: "/destinations",
+    image: "/visit-palembang/images/landmark.jpg",
+    link: "#/dest",
   },
   {
     title: "Heritage",
     desc: "Discover ancient sites and traditions passed down through generations, preserving the city’s soul.",
-    image: "/images/heritage.jpg",
-    link: "/destinations",
+    image: "/visit-palembang/images/heritage.jpg",
+    link: "#/dest",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function DestinationCarousel() {
             memorable travel experience.
           </p>
           <a
-            href="/destinations"
+            href="#/dest"
             className="border border-gray-800 text-gray-800 px-6 py-2 rounded-full hover:bg-gray-800 hover:text-white transition"
           >
             See All
